@@ -11,7 +11,7 @@ function Home() {
                     <div className='container-left'>
 
                         <div className='icons'>
-                            <a href='https://github.com/f3l1p3f3' target='blank'><p><FaGithub /></p></a>
+                            <a href='https://github.com/lipyferreira' target='blank'><p><FaGithub /></p></a>
                             <a href='https://www.linkedin.com/in/felipe-ferreira-687b97105/' target='blank'><p><FaLinkedinIn /></p></a>
                             <a href='https://www.instagram.com/felipeferreira.jj/' target='blank'><p><FaInstagram /></p></a>
                             <a href='mailto:felipe.ferreirag3@gmail.com' target='blank'><p><AiOutlineMail /></p></a>

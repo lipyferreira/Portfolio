@@ -1,0 +1,101 @@
+@keyframes formAnimator {
+    from {
+        transform: scale3d(-50%);
+    }
+
+    to {
+        transform: scale3d(0);
+    }
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.form-container form {
+    background-color: #ffffff;
+    height: 90%;
+    padding: 3rem 3rem 4rem 3rem;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+    animation-name: formAnimator;
+    animation-duration: 1s;
+}
+
+.form-container h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #121212;
+}
+
+.title-form::before {
+
+    width: 75px;
+    border-top: 4px solid #dc3545;
+    content: "";
+    position: absolute;
+    top: 10rem;
+
+}
+
+.form-container form input,
+
+textarea {
+    margin-top: 1.5rem;
+}
+
+.btn {
+    width: 100%;
+    font-weight: 500;
+    
+}
+
+@media (max-width: 512px) {
+    .form-container form {
+        width: 80%;
+        padding: 2rem 2rem 3rem 2rem;
+    }
+
+    .form-container h1 {
+        font-size: 1.3rem;
+    }
+
+    .title-form::before {
+        border-top: 3px solid #dc3545;
+        top: 8.5rem;
+        width: 65px;
+    }
+
+    .form-container form input,
+    textarea::placeholder {
+        font-size: .9rem;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .form-container form {
+        
+        padding: 2rem 1.2rem 2.2rem 1.2rem;
+    }
+
+    .form-container h1 {
+        font-size: 1.1rem;
+    }
+
+    .title-form::before {
+        border-top: 2px solid #dc3545;
+        top: 8.2rem;
+        width: 50px;
+    }
+
+    .form-container form input,
+    textarea::placeholder {
+        font-size: .8rem;
+    }
+}

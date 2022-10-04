@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card-geral {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.card-geral img {
+    margin-bottom: 0.8rem;
+    background-color: #ffffff;
+    border: none;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 20px;
+
+
+}
+
+.card-geral h2 {
+    margin-bottom: 0.2rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.card-geral a {
+    text-decoration: none;
+    color: initial;
+}

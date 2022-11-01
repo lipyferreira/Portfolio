@@ -29,9 +29,9 @@ function Projetos() {
     },
     {
       logo: git,
-      title: 'ReactJS',
-      description: 'Site de quiz de perguntas.',
-      link: 'https://github.com/lipyferreira/quiz'
+      title: 'HTML-CSS-JS',
+      description: 'Home page de hospedagem contando com layout responsivo.',
+      link: 'https://github.com/lipyferreira/site-de-homepage'
     },
     {
       logo: git,

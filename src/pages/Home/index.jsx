@@ -13,7 +13,7 @@ function Home() {
                         <div className='icons'>
                             <a href='https://github.com/lipyferreira' target='blank'><p><FaGithub /></p></a>
                             <a href='https://www.linkedin.com/in/felipe-ferreira-687b97105/' target='blank'><p><FaLinkedinIn /></p></a>
-                            <a href='https://www.instagram.com/felipeferreira.jj/' target='blank'><p><FaInstagram /></p></a>
+                            <a href='https://www.instagram.com/felipeferreira_sts/' target='blank'><p><FaInstagram /></p></a>
                             <a href='mailto:felipe.ferreirag3@gmail.com' target='blank'><p><AiOutlineMail /></p></a>
                         </div>
 
@@ -28,7 +28,7 @@ function Home() {
                     <div className='apresentacao-container'>
                         <h3>Olá! eu sou </h3>
                         <h1 className='name'>Felipe Ferreira </h1>
-                        <p className='area'>Front-end | ReactJS | React Native </p>
+                        <p className='area'>Back-end | Front-end | NodeJs | ReactJS </p>
 
 
                         <p className='content'>

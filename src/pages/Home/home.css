@@ -61,8 +61,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgba(255, 0, 0, 0.6);
-    border-radius: 30px;
     padding: 10px;
     gap: 50px;
 
@@ -81,8 +79,7 @@
 }
 
 .container-left .icons p:hover {
-    color: #ff0000;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 
@@ -115,7 +112,7 @@
 }
 
 .apresentacao-container h3 {
-    color: #ff0000;
+    color: #121212;
     font-weight: 500;
     line-height: 45px;
     font-size: 1.8rem;
@@ -169,7 +166,7 @@
     }
 
     .container-left .icons p {
-        color: #ff0000;
+        color: #34454E;
         animation: mobileIcon 1s;
         margin: 0;
         font-size: 1.6rem;

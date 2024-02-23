@@ -40,13 +40,13 @@
 
 .solid {
 
-    border-bottom: 3px solid #ff0000;
+    border-bottom: 3px solid #ffffff;
     width: 60px;
 
 }
 
 .tracejada {
-    border-bottom: 3px dashed #ff0000;
+    border-bottom: 3px dashed #ffffff;
     width: 15px;
     
 }
@@ -67,15 +67,13 @@
     width: 248px;
     height: 250px;
     border-radius: 10px;
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255, 0.8);
     transition: 0.5s;
     cursor: pointer;
 }
 
 .card:hover {
-    background-color: #dd2929;
-    color: #fff;
-
+    background-color: rgb(255, 255, 255, 1);
 }
 
  @media (max-width: 768px) { 

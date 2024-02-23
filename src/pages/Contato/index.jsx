@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 
 
+
 import { toast } from 'react-toastify'
 
 import './contato.css'
@@ -77,7 +78,7 @@ function Contato() {
                     onChange={(e) => setMessage(e.target.value)}
                     ></textarea>
                 </div>
-                <button type="submit" className="btn btn-danger">Enviar</button>
+                <button type="submit" className="btn-contact ">Enviar</button>
             </form>
         </div>
     )

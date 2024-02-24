@@ -36,7 +36,7 @@
 .title-form::before {
 
     width: 75px;
-    border-top: 4px solid #34454E;
+    border-top: 4px solid rgba(255, 0, 0, .9);
     content: "";
     position: absolute;
     top: 10rem;
@@ -49,21 +49,11 @@ textarea {
     margin-top: 1.5rem;
 }
 
-.btn-contact {
+.btn {
     width: 100%;
     font-weight: 500;
     font-size: 1rem;
-    background-color: rgb(52, 69, 78);
-    color: #ffffff;
-    border-radius: .5rem;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border: none;
-}
-.btn-contact:hover{
-    color: #ffffff;
-    background-color: rgba(52, 69, 78, 0.9);
-    transition: .3s;
+    color: #ffffff;  
 }
 
 @media (max-width: 512px) {

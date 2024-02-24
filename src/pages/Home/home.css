@@ -63,7 +63,8 @@
     align-items: center;
     padding: 10px;
     gap: 50px;
-
+    border: rgba(255, 0, 0, .8) solid 2px;
+    border-radius: 30px;
     animation-name: animationIcon;
     animation-duration: 0.5s;
 
@@ -80,6 +81,7 @@
 
 .container-left .icons p:hover {
     opacity: 0.7;
+    color: #FF6347
 }
 
 
@@ -112,7 +114,7 @@
 }
 
 .apresentacao-container h3 {
-    color: #121212;
+    color: #FF6347;
     font-weight: 500;
     line-height: 45px;
     font-size: 1.8rem;
@@ -159,7 +161,8 @@
         justify-content: center;
         align-items: center;
         background-color: #ffffff;
-        border-color: rgba(18, 18, 18, 0.9);
+        border: rgba(255, 0, 0, .8) solid 2px;
+        border-radius: 30px;
         animation: none;
         
         z-index: 2;

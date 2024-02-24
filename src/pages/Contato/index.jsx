@@ -78,7 +78,7 @@ function Contato() {
                     onChange={(e) => setMessage(e.target.value)}
                     ></textarea>
                 </div>
-                <button type="submit" className="btn-contact ">Enviar</button>
+                <button type="submit" className="btn btn-danger ">Enviar</button>
             </form>
         </div>
     )

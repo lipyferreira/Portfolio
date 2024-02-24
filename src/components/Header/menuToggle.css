@@ -19,7 +19,7 @@
 .two,
 .three {
     content: '';
-    border-bottom: 5px solid #121212;
+    border-bottom: 5px solid rgba(255, 0, 0, .9);
     width: 35px;
     border-radius: 4px;
 }
